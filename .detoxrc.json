@@ -1,0 +1,26 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "skipLegacyWorkersInjection": true,
+  "apps": {
+    "ios": {
+      "build": "npx react-native run-ios",
+      "type": "ios.app",
+      "binaryPath": "/Users/liatn/Library/Developer/Xcode/DerivedData/wixMobileCrashCourse-dmjewehdjmejoidewecieuqomgrx/Build/Products/Debug-iphonesimulator/wixMobileCrashCourse.app"
+    }
+  },
+  "devices": {
+    "simulator": {
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 12"
+      }
+    }
+  },
+  "configurations": {
+    "ios": {
+      "device": "simulator",
+      "app": "ios"
+    }
+  }
+}

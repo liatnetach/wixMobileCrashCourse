@@ -1,0 +1,64 @@
+{
+  "name": "@wix/wixmobilecrashcourse",
+  "version": "0.0.1",
+  "publishConfig": {
+    "registry": "http://npm.dev.wixpress.com/"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "fake-server": "json-server --watch db.json",
+    "start": "one-app-engine --mock-mode quickLogin -ia --force-localhost",
+    "start-ios": "one-app-engine --mock-mode quickLogin -i --force-localhost",
+    "start-android": "one-app-engine --mock-mode quickLogin -a --force-localhost",
+    "start-unmocked": "one-app-engine -ia --mock-mode unmocked --force-localhost",
+    "postinstall": "one-app-engine --setup",
+    "start-e2e": "RN_SRC_EXT=e2e.js react-native start",
+    "release": "mltci release",
+    "customPublish": "mltci release"
+  },
+  "devDependencies": {
+    "@wix/shono": "^6.0.0",
+    "@wix/wix-one-app-platform": "ga",
+    "@wix/wix-react-native-ui-lib": "ga",
+    "@wix/wix-one-app-member-view": "ga",
+    "@wix/wix-one-app-auth": "ga",
+    "wix-one-app-engine": "ga",
+    "@wix/native-app-wix-login": "ga",
+    "@wix/wix-mobile-lifecycle-tools": "^2.0.0"
+  },
+  "peerDependencies": {
+    "wix-one-app-engine": "*"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "oneAppEngine": {
+    "modules": [
+      "@wix/wix-one-app-platform",
+      "@wix/wixmobilecrashcourse",
+      "@wix/wix-one-app-member-view",
+      "@wix/wix-one-app-auth",
+      "@wix/native-app-wix-login",
+      "demo-module"
+    ],
+    "tabs": [
+      "welcome"
+    ]
+  },
+  "main": "src/module.ts",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

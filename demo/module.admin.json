@@ -1,0 +1,10 @@
+{
+  "name": "demo-module",
+  "prefix": "finalApp.demo",
+  "components": [
+    "finalApp.demo.Demo"
+  ],
+  "hasTabs": true,
+  "hasDemoInit": true,
+  "dbSchemes": {}
+}

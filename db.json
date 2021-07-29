@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Post with a style",
+      "text": "I’m currently in my house, in Israel. I’m typing a story on my computer and hoping for good",
+      "img": "https://picsum.photos/200/200/?image=100",
+      "id": 4
+    },
+    {
+      "title": "Catchy Title",
+      "text": "Have a great day my love!",
+      "img": "https://picsum.photos/200/200/?image=223",
+      "id": 5
+    },
+    {
+      "title": "Titleeee",
+      "text": "",
+      "img": "https://picsum.photos/200/200/?image=476",
+      "id": 19
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

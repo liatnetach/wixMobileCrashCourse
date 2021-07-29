@@ -1,0 +1,13 @@
+{
+  "modules": [
+    "@wix/wix-one-app-platform",
+    "@wix/wixmobilecrashcourse",
+    "@wix/wix-one-app-member-view",
+    "@wix/wix-one-app-auth",
+    "@wix/native-app-wix-login",
+    "demo-module"
+  ],
+  "tabs": [
+    "welcome"
+  ]
+}

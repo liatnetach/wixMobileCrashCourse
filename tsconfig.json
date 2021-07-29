@@ -1,0 +1,3 @@
+{
+  "extends": "./node_modules/@wix/shono/src/moduleTsconfig.json"
+}

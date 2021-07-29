@@ -1,0 +1,14 @@
+{
+  "contacts.profileWidgetsService": [
+    "@wix/wix-one-app-platform"
+  ],
+  "wix.platform.dashboardWidgetsService": [
+    "@wix/wix-one-app-platform",
+    "@wix/wixmobilecrashcourse",
+    "@wix/wix-one-app-member-view"
+  ],
+  "quickActions": [
+    "@wix/wixmobilecrashcourse",
+    "@wix/wix-one-app-member-view"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@wix/wixmobilecrashcourse",
+  "prefix": "liat-first-module",
+  "components": [
+    "liat-first-module.screen.PostsList",
+    "liat-first-module.screen.AddPost",
+    "liat-first-module.screen.ViewPost",
+    "liat-first-module.screen.FirstWidget"
+  ],
+  "hasTabs": true,
+  "consumedServices": [
+    "wix.platform.dashboardWidgetsService",
+    "quickActions"
+  ],
+  "hasDemoInit": false,
+  "dbSchemes": {}
+}
